@@ -12,10 +12,12 @@ Convierte UNICODE a valor
 	>-
 	<-
 ]
-
-
-***COMIENZA LOOP
-Duplico contador una vez a la derecha
->[>+<-]22
-,
-<
+Copiar a celda anterior
+>[
+	<+
+	>-
+]
+Copiar celda y quitar una unidad
+<[
+	[>+>+<<-]>>[<<+>>-]<-	
+]
