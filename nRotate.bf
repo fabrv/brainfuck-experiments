@@ -12,12 +12,23 @@ Convierte UNICODE a valor
 	>-
 	<-
 ]
-Copiar a celda anterior
 >[
 	<+
 	>-
+	>+
+	<
 ]
-Copiar celda y quitar una unidad
-<[
-	[>+>+<<-]>>[<<+>>-]<-	
+Mueve una celda, copia a la celda anterior y resta una unidad
+>[
+	<+
+	>-
+]<<-
+Entra en loop en la primer celda
+[
+	>
+	[
+		>+
+		<-
+	]
+	
 ]
