@@ -1,0 +1,25 @@
+{
+  "name": "brainfuck-experiments",
+  "version": "1.0.0",
+  "description": "Whole bunch of brainfuck experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabrv/brainfuck-experiments.git"
+  },
+  "keywords": [
+    "bf",
+    "brainfuck",
+    "esoteric"
+  ],
+  "author": "Fabrizzio Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabrv/brainfuck-experiments/issues"
+  },
+  "homepage": "https://github.com/fabrv/brainfuck-experiments#readme",
+  "dependencies": {}
+}
