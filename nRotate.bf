@@ -70,7 +70,7 @@ Correr hasta que de 0 y regresar 1
 [
 	>
 ]
-Mover N veces en la memoria
+Mover 1 veces en la memoria
 <[
 	[
 		>+
@@ -78,11 +78,25 @@ Mover N veces en la memoria
 	]<	
 ]
 >>-
-Mover el contador a su posicion incial {Una a la izquierda}
+Mover el contador a la celda 0 {Dos a la izquierda}
 [
-	<+
-	>-
+	<<+
+	>>-
 ]
+Correr hasta que de 0 y regresar 1
 >[
 	>
+]<
+Mover el ultimo elemento una a la derecha
+[
+	>+
+	<-
+]
+>-
+<<[<]+
+
+[>]>
+[
+	<<[<]>+	
+	[>]>-
 ]
