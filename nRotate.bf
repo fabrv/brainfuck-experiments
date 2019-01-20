@@ -14,21 +14,36 @@ Convierte UNICODE a valor
 ]
 >[
 	<+
-	>-
-	>+
-	<
+	>>+
+	<-
 ]
-Mueve una celda, copia a la celda anterior y resta una unidad
 >[
 	<+
-	>-
-]<<-
-Entra en loop en la primer celda
+	>-	
+]
+<<
+
+Mover el 9 a la celda 9
 [
-	>
-	[
+	>[
 		>+
 		<-
 	]
-	
+	<[
+		>+
+		<-
+	]>-
+]
+>
+[
+	[
+		<+
+		<+
+		>>-
+	]
+	<<[
+		>>+
+		<<-
+	]
+>-	
 ]
