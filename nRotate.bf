@@ -64,39 +64,43 @@ Convierte UNICODE a valor
 	>-
 	<-
 ]
-
-Correr hasta que de 0 y regresar 1
->
-[
-	>
-]
-Mover 1 veces en la memoria
-<[
+Iterar en la rotacion con e input del usuario
+>[
+	Correr hasta que de 0 y regresar 1
+	>[>]
+	Mover 1 veces en la memoria
+	<[
+		[
+			>+
+			<-
+		]<	
+	]
+	>>-
+	Mover el contador a la celda 0 {Dos a la izquierda}
+	[
+		<<+
+		>>-
+	]
+	Correr hasta que de 0 y regresar 1
+	>[
+		>
+	]<
+	Mover el ultimo elemento una a la derecha
 	[
 		>+
 		<-
-	]<	
-]
->>-
-Mover el contador a la celda 0 {Dos a la izquierda}
-[
-	<<+
-	>>-
-]
-Correr hasta que de 0 y regresar 1
->[
-	>
-]<
-Mover el ultimo elemento una a la derecha
-[
-	>+
-	<-
-]
->-
-<<[<]+
-
-[>]>
-[
-	<<[<]>+	
-	[>]>-
+	]
+	>-
+	<<[<]+
+	
+	[>]>
+	[
+		<<[<]>+	
+		[>]>-
+	]
+	<<[<]<
+	[
+		>+
+		<-
+]>	
 ]
